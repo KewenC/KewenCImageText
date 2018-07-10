@@ -33,12 +33,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         mLayoutManager = new LinearLayoutManager(this);
         recView.setLayoutManager(mLayoutManager);
         recView.setHasFixedSize(true);
-        mData.add("TextView");
-        mData.add("EditText");
-        mData.add("ImageView");
-        mData.add("TextView");
-        mData.add("EditText");
-        mData.add("ImageView");
+
         mAdapter = new RecyclerAdapter(mData);
         recView.setAdapter(mAdapter);
         mAdapter.setOnTtemClickListener(new RecyclerAdapter.OnItemClickListener() {
