@@ -45,6 +45,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
             @Override
             public void onItemClick(View view, int position) {
                 Toast.makeText(MainActivity.this,"点击Item："+position,Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this,"点击Item："+position,Toast.LENGTH_SHORT).show();
             }
         });
     }
